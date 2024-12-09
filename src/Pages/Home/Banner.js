@@ -31,12 +31,31 @@ const Banner = () => {
                         </Box>
                     </div>
                     <div>
-                        <h3>Slide 2</h3>
-                        <h3>Slide 2</h3>
+                        <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center",gap:"50px" }}>
+                            <Box>
+                                <Typography sx={{ fontSize: "64px", fontWeight: 600, color: "var(--black-color)" }}>Lessons and insights <br/><span style={{ color: "var(--primary-color)" }}> from 8 years</span> </Typography>
+                                <Typography sx={{ color: "var(--grey-color)", my: "5px", fontSize: "14px", fontWeight: 600 }}>Where to grow your business as a photographer: site or social media?</Typography>
+                                <Button sx={{ bgcolor: 'var(--primary-color)', mt: "10px", textTransform: "capitalize", color: "var(--white-color)" }}>Register</Button>
+                            </Box>
+                            <Box sx={{ width: "350px", height: "250px" }}>
+                                <img src={banner} style={{ height: "100%", width: "100%" }} />
+                            </Box>
+                        </Box>
                     </div>
                     <div>
-                        <h3>Slide 3</h3>
+                        <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center",gap:"50px" }}>
+                            <Box>
+                                <Typography sx={{ fontSize: "64px", fontWeight: 600, color: "var(--black-color)" }}>Lessons and insights <br/><span style={{ color: "var(--primary-color)" }}> from 8 years</span> </Typography>
+                                <Typography sx={{ color: "var(--grey-color)", my: "5px", fontSize: "14px", fontWeight: 600 }}>Where to grow your business as a photographer: site or social media?</Typography>
+                                <Button sx={{ bgcolor: 'var(--primary-color)', mt: "10px", textTransform: "capitalize", color: "var(--white-color)" }}>Register</Button>
+                            </Box>
+                            <Box sx={{ width: "350px", height: "250px" }}>
+                                <img src={banner} style={{ height: "100%", width: "100%" }} />
+                            </Box>
+                        </Box>
                     </div>
+                  
+                
                 </Slider>
             </Container>
         </Box>
