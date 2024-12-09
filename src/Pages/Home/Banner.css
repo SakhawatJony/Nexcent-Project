@@ -1,0 +1,20 @@
+.custom-slider .slick-dots {
+    position: absolute;
+    top: 130%; /* Moves the dots above the slider */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.custom-slider .slick-dots li {
+    margin: 0 5px;
+}
+
+.custom-slider .slick-dots li button:before {
+    color: #4CAF4F;
+    font-size: 11px; /* Dot size */
+}
+
+.custom-slider .slick-dots li.slick-active button:before {
+    color: #4CAF4F; /* Active dot color */
+}
